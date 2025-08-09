@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    const Color kolorTla = Color(0xFF42A5F5); // jasny niebieski
+    const Color kolorTla = Color(0xFF42A5F5); // niebieski
 
     return Scaffold(
       backgroundColor: kolorTla,
@@ -77,7 +77,6 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Pole 1 - wpisywanie kodu
             Container(
               padding: const EdgeInsets.all(8),
               color: Colors.white,
@@ -91,7 +90,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             const SizedBox(height: 20),
-            // Pole 2 - informacje
             Expanded(
               child: Container(
                 width: double.infinity,
